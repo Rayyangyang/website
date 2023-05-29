@@ -9,7 +9,7 @@
       router
     >
       <el-menu-item index="0">
-        <img src="@/assets/imgs/logo.png" class="sidebar-logo" />
+        <!-- <img src="@/assets/imgs/logo.png" class="sidebar-logo" /> -->
       </el-menu-item>
       <div class="flex-grow" />
       <el-menu-item index="homePage">home</el-menu-item>
@@ -35,6 +35,10 @@ const handleSelect = (key: string, keyPath: string[]) => {
 </script>
 
 <style>
+.el-menu-demo {
+  padding: 0 10%;
+  border-bottom: none;
+}
 .flex-grow {
   flex-grow: 1;
 }
