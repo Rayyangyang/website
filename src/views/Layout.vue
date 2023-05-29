@@ -8,7 +8,9 @@
       @select="handleSelect"
       router
     >
-      <el-menu-item index="0">LOGO</el-menu-item>
+      <el-menu-item index="0">
+        <img src="@/assets/imgs/logo.png" class="sidebar-logo" />
+      </el-menu-item>
       <div class="flex-grow" />
       <el-menu-item index="homePage">home</el-menu-item>
       <el-menu-item index="productIntroduction">productIntroduction</el-menu-item>
