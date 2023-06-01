@@ -15,3 +15,10 @@ const locale = zhCn
     <router-view />
   </ElConfigProvider>
 </template>
+
+<style>
+.my-container {
+  padding: 0 10%;
+  border-bottom: none;
+}
+</style>
