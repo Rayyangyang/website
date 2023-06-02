@@ -2,7 +2,7 @@
   <div class="card-wrapper">
     <div class="logo"><img src="../../assets/imgs/logo.png" alt="" /></div>
     <div class="img-wrapper">
-      <img :src="props.img" alt="" />
+      <img :src="props.img" alt="" style="width: 608px" />
     </div>
     <table border="1" style="border-collapse: collapse">
       <tr>
@@ -34,13 +34,16 @@ const props = defineProps(["img", "title", "boxType", "bottleType"])
     width: 600px;
   }
 }
+.logo {
+  width: 608px;
+}
 table {
-  width: 680px;
+  width: 608px;
   font-size: 18px;
   .table-title {
     width: 80px;
     text-align: center;
-    background-color: red;
+    background-color: #c7221c;
     color: #fff;
   }
 }
